@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		330CDE3B1DD064A100B12072 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 330CDE3A1DD064A100B12072 /* main.m */; };
+		330CDE461DD0706400B12072 /* NormalUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 330CDE451DD0706400B12072 /* NormalUserModel.m */; };
+		330CDE491DD074B300B12072 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 330CDE481DD074B300B12072 /* AddressModel.m */; };
+		330CDE4C1DD0759800B12072 /* HObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 330CDE4B1DD0759800B12072 /* HObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,12 @@
 /* Begin PBXFileReference section */
 		330CDE371DD064A100B12072 /* 模型设计与KVC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "模型设计与KVC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		330CDE3A1DD064A100B12072 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		330CDE441DD0706400B12072 /* NormalUserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalUserModel.h; sourceTree = "<group>"; };
+		330CDE451DD0706400B12072 /* NormalUserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalUserModel.m; sourceTree = "<group>"; };
+		330CDE471DD074B300B12072 /* AddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
+		330CDE481DD074B300B12072 /* AddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
+		330CDE4A1DD0759800B12072 /* HObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HObject.h; sourceTree = "<group>"; };
+		330CDE4B1DD0759800B12072 /* HObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				330CDE3A1DD064A100B12072 /* main.m */,
+				330CDE4A1DD0759800B12072 /* HObject.h */,
+				330CDE4B1DD0759800B12072 /* HObject.m */,
+				330CDE471DD074B300B12072 /* AddressModel.h */,
+				330CDE481DD074B300B12072 /* AddressModel.m */,
+				330CDE441DD0706400B12072 /* NormalUserModel.h */,
+				330CDE451DD0706400B12072 /* NormalUserModel.m */,
 			);
 			path = "模型设计与KVC";
 			sourceTree = "<group>";
@@ -120,6 +135,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				330CDE3B1DD064A100B12072 /* main.m in Sources */,
+				330CDE491DD074B300B12072 /* AddressModel.m in Sources */,
+				330CDE461DD0706400B12072 /* NormalUserModel.m in Sources */,
+				330CDE4C1DD0759800B12072 /* HObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +264,7 @@
 				330CDE401DD064A100B12072 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
