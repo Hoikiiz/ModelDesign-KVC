@@ -10,22 +10,21 @@
 #import "AddressModel.h"
 
 typedef enum : NSUInteger {
-    NormalUserNameTypeEnglish = 1,
-    NormalUserNameTypeChinese
-}NormalUserNameType;
+    UserNameTypeEnglish = 1,
+    UserNameTypeChinese
+}UserNameType;
 
 
-@interface NormalUserModel : HObject
-@property  (copy, nonatomic) NSString *firstName;
+@interface UserModel : HObject
+@property (copy, nonatomic) NSString *firstName;
 @property (copy, nonatomic) NSString *lastName;
 @property (copy, readonly , nonatomic) NSString *fullName;
 
 @property (assign, nonatomic) NSInteger age;
-@property (assign, nonatomic) NormalUserNameType nameType;
+@property (assign, nonatomic) UserNameType nameType;
 
 @property (copy, nonatomic) NSString *ID;
 @property (strong, nonatomic) AddressModel *address;
-
 
 - (instancetype)initWithDict:(NSDictionary *)dict;
 

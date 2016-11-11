@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "330CDE361DD064A100B12072"
-               BuildableName = "&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC_KVC"
-               BlueprintName = "&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC_KVC"
+               BlueprintIdentifier = "330576951DD2D44A00F61482"
+               BuildableName = "KeyPathMethod"
+               BlueprintName = "KeyPathMethod"
                ReferencedContainer = "container:&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "330CDE361DD064A100B12072"
-            BuildableName = "&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC_KVC"
-            BlueprintName = "&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC_KVC"
+            BlueprintIdentifier = "330576951DD2D44A00F61482"
+            BuildableName = "KeyPathMethod"
+            BlueprintName = "KeyPathMethod"
             ReferencedContainer = "container:&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -55,9 +55,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "330CDE361DD064A100B12072"
-            BuildableName = "&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC_KVC"
-            BlueprintName = "&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC_KVC"
+            BlueprintIdentifier = "330576951DD2D44A00F61482"
+            BuildableName = "KeyPathMethod"
+            BlueprintName = "KeyPathMethod"
             ReferencedContainer = "container:&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -74,9 +74,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "330CDE361DD064A100B12072"
-            BuildableName = "&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC_KVC"
-            BlueprintName = "&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC_KVC"
+            BlueprintIdentifier = "330576951DD2D44A00F61482"
+            BuildableName = "KeyPathMethod"
+            BlueprintName = "KeyPathMethod"
             ReferencedContainer = "container:&#x6a21;&#x578b;&#x8bbe;&#x8ba1;&#x4e0e;KVC.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

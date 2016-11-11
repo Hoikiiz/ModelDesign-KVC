@@ -1,8 +1,8 @@
 //
 //  main.m
-//  模型设计与KVC
+//  模型设计与KVC_普通状态
 //
-//  Created by SunYang on 16/11/7.
+//  Created by SunYang on 16/11/9.
 //  Copyright © 2016年 SunYang. All rights reserved.
 //
 
@@ -14,10 +14,9 @@ int main(int argc, const char * argv[]) {
                                @"age":@(25),
                                @"id":@"1002394",
                                @"address":@{
-                                       @"id":@"13",
+                                       @"id":@"01",
                                        @"description":@"北京"
-                                       },
-                               @"scores":@[@"80",@"85",@"75",@"90"]
+                                       }
                                };
     UserModel *userModel = [[UserModel alloc] initWithDict:JSONDict];
     NSLog(@"%@",userModel);
